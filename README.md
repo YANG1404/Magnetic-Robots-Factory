@@ -1,10 +1,12 @@
-# Magnetic Robots Factoty
+# Magnetic Robots Factory
 
-![Magnetic Robots Factoty 플레이 화면](docs/images/gameplay-sorting.png)
+![Magnetic Robots Factory 플레이 화면](docs\images\Preview.gif)
 
 Meta Quest용 VR 로봇 분류 게임입니다. 공장의 컨베이어 벨트에서 이동하는 빨간색·파란색 로봇을 **반대 색상의 자석**으로 끌어당긴 뒤, 로봇과 같은 색의 파이프에 넣어 점수를 얻습니다.
 
-> 프로젝트명은 요청받은 표기인 `Magnetic Robots Factoty`를 사용했습니다.
+
+[[Demo Video]](https://www.youtube.com/watch?v=UTn90c0b0SE)
+
 
 ## 프로젝트 개요
 
@@ -177,10 +179,5 @@ Meta Quest용 VR 로봇 분류 게임입니다. 공장의 컨베이어 벨트에
 
 ![최종 점수와 재시작 UI](docs/images/game-over.png)
 
-## GitHub 업로드 전 확인 사항
 
-- Unity 프로젝트용 `.gitignore`를 적용하고 `Library/`, `Temp/`, `Logs/`, `obj/`, `UserSettings/`를 제외합니다.
-- Meta XR 샘플과 외부 에셋을 저장소에 재배포할 수 있는지 각 라이선스를 확인합니다.
-- 저장소 용량이 크면 대용량 모델, 텍스처, 영상 파일에 Git LFS 사용을 검토합니다.
-- 실제 저장소 주소로 `<REPOSITORY_URL>`을 교체합니다.
 
